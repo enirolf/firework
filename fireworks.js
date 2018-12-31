@@ -169,6 +169,7 @@ window.onload = window.onresize = function() {
         c.moveTo(this.coordinates[this.coordinates.length - 1].x, this.coordinates[this.coordinates.length - 1].y);
         c.lineTo(this.pos.x, this.pos.y);
         c.strokeStyle = `rgb(${this.colour.r}, ${this.colour.g}, ${this.colour.b})`;
+        console.log(`rgb(${this.colour.r}, ${this.colour.g}, ${this.colour.b})`);
         c.stroke();
     };
 
