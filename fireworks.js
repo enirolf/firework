@@ -186,8 +186,6 @@ window.onload = window.onresize = function() {
         hue = randomRange(0, 360);
         timerTotal = Math.round(randomRange(30, 80));
 
-        console.log(timerTotal);
-
         c.globalCompositeOperation = 'destination-out';
         c.fillStyle = 'rgba(0, 0, 0, 0.5)';
         c.fillRect(0, 0, w, h);
