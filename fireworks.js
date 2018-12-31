@@ -17,11 +17,8 @@ window.onload = window.onresize = function() {
     var canvas = document.querySelector('canvas');
 
     var c = canvas.getContext('2d');
-    var w = canvas.width = screen.width;
-    var h = canvas.height = screen.height;
-
-    console.log('w: ' + w);
-    console.log('h: ' + h);
+    var w = canvas.width = window.innerWidth;
+    var h = canvas.height = window.innerHeight;
 
     var fireworks = [];
     var particles = [];
